@@ -28,7 +28,7 @@ html {
 
 :root {
   --main-color: #27ae60;
-  --main-color-var: ##2ecc71;
+  --main-color-var: #2ecc71;
 }
 
 /* ----------------------------------------
@@ -331,7 +331,6 @@ HOW IT WORKS
 }
 
 .btn-app img {
-  clear: both;
   height: 50px;
   width: auto;
   margin-right: 10px;
@@ -361,6 +360,7 @@ CUSTOMERS
   background-size: cover;
   color: white;
   padding: 80px;
+  margin-bottom: 0;
   background-attachment: fixed;
 }
 
@@ -391,4 +391,60 @@ cite img {
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
+}
+
+/* ----------------------------------------
+CUSTOMERS
+---------------------------------------- */
+
+.section-plans {
+  background-color: #f4f4f4;
+  padding: 80px;
+  margin: 0;
+}
+
+.plan-box {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 5%; /* half of 100-90 */
+  box-shadow: 1px 1px 3px rgb(167, 167, 167);
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.plan-box div ul li {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.plan-box div:first-child {
+  background-color: rgb(246, 255, 247);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.plan-box div:last-child {
+  border: 0;
+}
+
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: var(--main-color);
+}
+
+.plan-price span {
+  font-size: 33%;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+.plan-price-meal {
+  font-size: 80%;
 }
