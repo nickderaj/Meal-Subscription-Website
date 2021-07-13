@@ -71,10 +71,11 @@ h2:after {
 }
 
 h3 {
-  font-size: 120%;
+  font-size: 130%;
   word-spacing: 1px;
   margin-bottom: 15px;
   letter-spacing: 0px;
+  font-weight: 300;
 }
 
 /* PARAGRAPHS */
@@ -193,4 +194,29 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid var(--main-color);
+}
+
+/* ----------------------------------------
+MEALS
+---------------------------------------- */
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
 }
