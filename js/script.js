@@ -4,8 +4,10 @@ $(document).ready(function () {
     function (direction) {
       if (direction === "down") {
         $("nav").addClass("sticky");
+        $("nav").addClass("animate__animated animate__fadeIn");
       } else {
         $("nav").removeClass("sticky");
+        $("nav").removeClass("animate__animated animate__fadeIn");
       }
     },
     {
@@ -22,4 +24,9 @@ $(document).ready(function () {
       offset: "50%",
     }
   );
+
+  $(".icon").click(function () {
+    let nav = $(".main-nav");
+    nav.slideToggle(200);
+  });
 });
