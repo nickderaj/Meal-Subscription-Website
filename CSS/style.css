@@ -619,3 +619,15 @@ footer p {
   color: #85a593;
   text-align: center;
 }
+
+/* ----------------------------------------
+ANIMATIONS
+---------------------------------------- */
+
+.js--wp-1 {
+  opacity: 0;
+}
+
+.js--wp-1.animated {
+  opacity: 1;
+}
